@@ -21,8 +21,8 @@ description: A framework for bootstrapped digital scholarly editions outside the
 # List of links in the navigation bar
 navbar-links:
   About: "pages/about"
-  Editions:
-    - 
+  Editions: 
+    - Overview: "pages/editions"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
