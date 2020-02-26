@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Open Arabic Periodical Editions (OpenArabicPE)"
 subtitle: "A framework for open, collaborative, and scholarly digital editions of early Arabic periodicals"
 author: Till Grallert
