@@ -10,11 +10,11 @@ bigimg: /assets/images/muqtabas-v_6-i_2-xml-and-boilerplate.png
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+	  <h2 class="post-title">{{ post.title | markdownify }}</h2>
 
 	  {% if post.subtitle %}
 	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
+	    {{ post.subtitle | markdownify }}
 	  </h3>
 	  {% endif %}
     </a>
